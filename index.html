@@ -6,33 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .img1 {
+        div {
             width: 200px;
             height: 200px;
             border: 1px solid black;
+        }
+        .img1 {
+            background-image: url(./img/logo.jpg);
+            background-size:100%;
         }
         .img2 {
-            width: 200px;
-            height: 200px;
-            border: 1px solid black;
-            background-size: 200px 200px;
+            background-image: url(./img/logo@2x.png);
+            background-size:100%;
         }
         .img3 {
-            width: 200px;
-            height: 200px;
-            border: 1px solid black;
-            background-size: 200px 200px;
+            background-image: url(./img/logo-1@3x.png);
+            background-size:100%;
         }
     </style>
 </head>
 <body>
     <h3>原图</h3>
-    <div><img class="img1" src="./img//logo.jpg" alt=""></div>
+    <div class="img1"></div>
     <hr>
     <h3>2x图</h3>
-    <div><img class="img2" src="./img//logo@2x.png" alt=""></div>
+    <div class="img2"></div>
     <hr>
     <h3>3x图</h3>
-    <div><img class="img3" src="./img//logo-1@3x.png" alt=""></div>
+    <div class="img3"></div>
 </body>
 </html>
